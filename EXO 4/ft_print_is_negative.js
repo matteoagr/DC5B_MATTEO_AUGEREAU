@@ -1,10 +1,11 @@
-function exo4(n) {
+function isNegative(num) {
     if (num % 1 != 0)
-        return "veuillez rentrer un nombre entier"
-    if (n < 0) {
-        console.log('N')
-    } else {
-        console.log('P')
+        return ("Veuillez rentrer un nombre entier")
+    if (Math.sign(num) === -1) {
+        return "N";
     }
+
+    return "P";
 }
-exo4()
+
+console.log(isNegative());

@@ -10,7 +10,7 @@ function exo5() {
         let third = n % 1000 / 100;
         if (first != second && first != third && second != third) {
             if (third < second && second < first) {
-                res.push(i).tolocalestring;
+                res.push(i.toLocaleString('fr-FR', { minimumIntegerDigits: 2, }) + " " + j.toLocaleString('fr-FR', { minimumIntegerDigits: 3, }));.tolocalestring;
             }
         }
     }

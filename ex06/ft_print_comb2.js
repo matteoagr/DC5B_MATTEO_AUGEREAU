@@ -7,3 +7,4 @@ function exo6() {
     }
     console.log(res)
 }
+exo6()

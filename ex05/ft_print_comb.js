@@ -16,3 +16,4 @@ function exo5() {
     }
     console.log(res);
 }
+exo5()

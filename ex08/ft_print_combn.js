@@ -7,4 +7,4 @@ function exo8(n) {
     console.log(res)
 }
 
-exo8(2)
+exo8()
